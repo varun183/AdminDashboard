@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    
+
+  }
+
+  body{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 6fr;
+    font-size: 1rem;
+
+  }
+
+ /*SIDEBAR PART*/
+
+  nav{
+    background-color: #10a1e4e1;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    font-weight: bolder;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  
+.sidebar ul li img {
+    width: 50px;
+    height: 50px;
+  }
+
+
+
+/*HEADER PART*/
+header{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    background-color:azure;
+}
+
+
+/*MAIN PART*/
+
+main{
+    grid-column:inherit;
+    grid-row: 2/3;
+    border: 1px black solid;
+}
+
+
+/*PROJECT CONTAINER*/
+
+  .project img{
+    width: 50px;
+    height: 50px;
+    justify-self: end;
+
+  }
+
+
+
+
+
+
+/*ANNOUNCEMENT-ACCOUNT PART*/
+
+
+
