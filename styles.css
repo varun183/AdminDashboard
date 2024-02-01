@@ -133,6 +133,27 @@ main{
 .announce-trend{
     grid-row: -2 -1;
     grid-column: 2/3;
+    padding: 1rem;
+    gap: 1.2rem;
+    font-size: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.announcements{
+    padding: 1rem;    
+    
+    
+}
+
+.announcement p{
+    padding: 7px;
+}
+
+.accounts{
+    padding: 1rem;
+    border: 1px solid black;
 }
 
 
