@@ -137,9 +137,9 @@ header{
 
 .accountToolBar{
   display: flex;
-  padding: 1rem;
+  padding: 1.5rem 2.5rem;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   column-gap: 2.5rem;
 
 }
@@ -148,6 +148,8 @@ header{
   display: flex;
   justify-content: space-evenly;
   padding: 1.5rem 2rem;
+  gap: 2rem;
+ 
   
 }
 
@@ -157,6 +159,7 @@ header{
   font-weight: bolder;
   color: white;
   background-color: #1e293b;
+  
   
 }
 
