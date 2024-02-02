@@ -127,6 +127,19 @@ main{
     background-color: #f8fafc;
     color: black;
     border-radius: 0.7rem;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+    
+}
+
+.project-tools{
+  padding-top: 1rem;
+  justify-self: end;
+}
+
+.project-tools img{
+  padding: 0.5rem;
 }
 
 
